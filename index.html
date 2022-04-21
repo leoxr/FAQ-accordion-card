@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        position: absolute;
+        bottom: 50px;
+        font-size: 11px;
+        text-align: center;
+        color: hsl(238, 29%, 16%);
+      }
+      .attribution a {
+        color:hsl(0, 0%, 90%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article id="faq" class="faq-container">
+        <div class="faq-images">
+
+          <div class="faq__mobile">
+            <img src="/images/illustration-woman-online-mobile.svg" alt="" class="faq__img" />
+            <img src="/images/bg-pattern-mobile.svg" alt="" class="faq__mobile-shadow"/>
+          </div>
+
+          <div class="faq__desktop">
+            <img src="/images/illustration-woman-online-desktop.svg" alt="" class="faq__desktop-img">
+            <img src="/images/bg-pattern-desktop.svg" alt="" class="faq__desktop-shadow">
+            <img class="faq__desktop-box" src="/images/illustration-box-desktop.svg" alt="">
+          </div>
+          
+        </div>
+      <div class="faq-text">  
+        <h1 class="faq-title">FAQ</h1>
+        <!-- faq 1 -->
+        <section id="faq1" class="faq-ask-container">
+          <div class="faq__section">
+            <h2 class="faq-ask">How many team members can I invite?</h2>
+            <p class="faq-ask__answer hidden">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </div>
+          <div class="faq__arrow faq__arrow-down"></div>
+        </section>
+
+        <!-- faq 2 -->
+        <section id="faq2" class="faq-ask-container">
+          <div class="faq__section">
+            <h2 class="faq-ask faq-bold">What is the maximum file upload size?</h2>
+            <p class="faq-ask__answer">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </div>
+          <div class="faq__arrow faq__arrow-up"></div>
+        </section>
+
+        <!-- faq 3 -->
+        <section id="faq3" class="faq-ask-container">
+          <div class="faq__section">
+            <h2 class="faq-ask">How do I reset my password?</h2>
+            <p class="faq-ask__answer hidden">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </div>
+          <div class="faq__arrow faq__arrow-down"></div>
+        </section>
+
+        <!-- faq 4 -->
+        <section id="faq4" class="faq-ask-container">
+          <div class="faq__section">
+            <h2 class="faq-ask">Can I cancel my subscription?</h2>
+            <p class="faq-ask__answer hidden">
+              Yes! Send us a message and we'll process your request no questions asked.
+            </p>
+          </div>
+          <div class="faq__arrow faq__arrow-down"></div>
+        </section>
+
+        <!-- faq 5 -->
+      </section>
+      <section id="faq5" class="faq-ask-container">
+        <div class="faq__section">
+          <h2 class="faq-ask">Do you provide additional support?</h2>
+          <p class="faq-ask__answer hidden ">
+            Do you provide additional support?
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </p>
+        </div>
+        <div class="faq__arrow faq__arrow-down"></div>
+      </section>
+    </div>
+      </article>
+    </main>
+ 
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      > -  Coded by <a href="#">Leonardo Rojo</a>
+    </div>
+
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
