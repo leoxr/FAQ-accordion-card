@@ -114,6 +114,19 @@ body {
   color: hsl(237, 12%, 33%);
 }
 
+
+ .attribution {
+   position: absolute;
+   bottom: 50px;
+   font-size: 11px;
+   text-align: center;
+   color: hsl(238, 29%, 16%);
+}
+ .attribution a {
+   color:hsl(0, 0%, 90%);
+}
+
+
 /* ********************************************* */
 
 @media (min-width: 990px) {
