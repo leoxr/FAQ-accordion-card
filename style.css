@@ -89,7 +89,7 @@ main {
 }
 
 .faq__arrow-down {
-  background: url(/images/icon-arrow-down.svg) no-repeat center;
+  background: url(images/icon-arrow-down.svg) no-repeat center;
   margin-top: 10px;
   margin-left: 3px;
   width: 32px;
@@ -99,7 +99,7 @@ main {
 }
 
 .faq__arrow-up {
-  background: url(/images/icon-arrow-down.svg) no-repeat bottom right;
+  background: url(images/icon-arrow-down.svg) no-repeat bottom right;
   margin-left: -8px;
   transform: scaleY(-1);
   margin-top: 21px;
