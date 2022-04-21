@@ -16,6 +16,11 @@ body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(0deg, hsl(240, 73%, 65%) 0%, hsl(273, 75%, 66%));
+  
+}
+main {
+  margin-top: 7em;
+  margin-bottom: 7em;
 }
 
 .faq-container {
@@ -84,7 +89,7 @@ body {
 }
 
 .faq__arrow-down {
-  background: url(images/icon-arrow-down.svg) no-repeat center;
+  background: url(/images/icon-arrow-down.svg) no-repeat center;
   margin-top: 10px;
   margin-left: 3px;
   width: 32px;
@@ -94,7 +99,7 @@ body {
 }
 
 .faq__arrow-up {
-  background: url(images/icon-arrow-down.svg) no-repeat bottom right;
+  background: url(/images/icon-arrow-down.svg) no-repeat bottom right;
   margin-left: -8px;
   transform: scaleY(-1);
   margin-top: 21px;
@@ -113,23 +118,25 @@ body {
   font-weight: 700;
   color: hsl(237, 12%, 33%);
 }
-
-
- .attribution {
-   position: absolute;
-   bottom: 10px;
-   font-size: 11px;
-   text-align: center;
-   color: hsl(238, 29%, 16%);
+.attribution {
+  position: absolute;
+  bottom: -170px;
+  font-size: 11px;
+  text-align: center;
+  color: hsl(238, 29%, 16%);
 }
- .attribution a {
-   color:hsl(0, 0%, 90%);
+.attribution a {
+  color:hsl(0, 0%, 90%);
 }
-
-
 /* ********************************************* */
 
 @media (min-width: 990px) {
+
+  main {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   .faq-container {
     /* opacity: .6; */
     background-color: hsl(0, 0%, 100%);
@@ -207,4 +214,12 @@ body {
     margin-left: -24px;
     margin-top: 22px;
   }
+
+  .attribution {
+ 
+    bottom: 5px;
+   
+   }
+
 }
+
